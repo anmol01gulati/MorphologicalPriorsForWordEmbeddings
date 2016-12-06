@@ -45,4 +45,4 @@ if __name__ == "__main__":
     D["word_embeddings"] = word_embeddings
     D["morpheme_embeddings"] = morpho_embeddings
 
-    cPickle.dump(D, output_filename)
+    cPickle.dump(D, options.output_filename)
